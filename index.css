@@ -1,0 +1,195 @@
+body {
+    font-family: "Manrope";
+    background-color: rgb(238, 236, 236);
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 0px 0px rgb(238, 236, 236);
+    position: relative;
+}
+
+.paragraph {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: hsl(217, 19%, 35%);
+}
+
+.content {
+    margin-bottom: 20px;
+    color: hsl(214, 17%, 51%);
+}
+
+.author {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    font-size: 1 rem;
+    padding-top: 20px;
+}
+
+.share {
+    margin-top: 200px;
+    text-align: right;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+#containerPara {
+    margin: 0px 40px 0px 40px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#name {
+    padding: 8px;
+    color: hsl(212, 23%, 69%);
+}
+
+#date {
+    color: hsl(0, 0%, 61%);
+    color: hsl(0, 2%, 76%);
+}
+
+#authorImagedateName {
+    display: flex;
+}
+
+#btn {
+    margin-right: 10px;
+}
+
+.avatar1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(212, 210, 210);
+    padding: 10px;
+
+}
+#optionLogo{
+    position: absolute;
+    top: 160px;
+    right: 10px;
+    opacity: -1px;
+    background-color: gray;
+   border-radius:10px;
+   display: flex;
+   padding: 20px;
+   justify-content: space-between;
+   gap: 10px;
+}
+#img1,#img2,#img3{
+    height: 30px;
+    width: 30px;
+}
+#p{
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+}
+#my-div{
+    display: flex;
+    margin: 10px;
+   gap: 10px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+        
+    }
+
+    #containerPara {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .author {
+        display: flex;
+        /* flex-direction: column;
+        align-items: center; */
+    }
+
+    #btn {
+        margin-top: 10px;
+
+    }
+
+    .avatar1 {
+        margin: auto;
+    }
+    #optionLogo{
+        position: absolute;
+        top: 700px;
+        right: 100px;
+        /* opacity: -1px; */
+        background-color: rgb(67, 66, 66);
+       border-radius:10px;
+       width: 400px;
+    }
+    #img1,#img2,#img3{
+        height: 50px;
+        width: 50px;
+    }
+    #p{
+        color: white;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .paragraph {
+        font-size:20px;
+    }
+
+    .content {
+        font-size:10px;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+        right:20px;
+    }
+
+    .avatar1 {
+        width: 25px;
+        height: 25px;
+    }
+
+    #optionLogo {
+        top: 140px;
+        right: 10px;
+        width: 80%;
+        
+    }.author{
+        display: flex;
+    }
+}
